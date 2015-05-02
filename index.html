@@ -1,0 +1,291 @@
+<!--
+a friendly iteration on shampshire’s block 'Redlist scatter plot'
+https://gist.github.com/shampshire/bcb47fad9f73fe93ffb8/download#
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Red List Working Bar Chart</title>
+		<script type="text/javascript" src="http://d3js.org/d3.v3.js"></script>
+		<script type"text/javascript" src="legend.js"></script>
+		<style type="text/css">
+			
+			body {
+				background-color: white;
+				font-family: Helvetica, Arial, sans-serif;
+			}
+
+			span.filetype {
+				color: grey;
+				font-size: 8px;
+			
+			}
+			
+			h1 {
+				font-size: 20px;
+				margin: 0;
+			}
+
+			p {
+				font-size: 12px;
+				margin: 10px 0 0 0;
+				width: 600px;
+			}
+
+			svg {
+				background-color: white;
+			}
+
+			
+			.axis path,
+			.axis line {
+				fill: none;
+				stroke: grey;
+				shape-rendering: crispEdges;
+			}
+			
+			.axis text {
+				font-family: sans-serif;
+				font-size: 10px;
+			}
+
+			.label {
+				font-family: sans-serif;
+				font-size: 14px;
+				font-weight: bold;
+				font-color: grey;
+			}
+			
+
+		</style>
+	</head>
+	<body>
+
+		<h1>Threatened Mammal Species vs. Total Threatened Species by Country</h1>
+
+		<p>IUCN Redlist summary showing number of threatened mammal species versus total threatened species by country. "Threatened" refers to those species classed as Vulnerable, Endangered, or Critically Endangered. Source: <a href="http://cmsdocs.s3.amazonaws.com/summarystats/2014_3_Summary_Stats_Page_Documents/2014_3_RL_Stats_Table_5.pdf">IUCN</a><span class="filetype"> [PDF]</span></p>
+		<p id="color">Click here to color-code countries by continent.</p>
+		<p id="nocolor">Click here to remove the color-codes</p>
+	
+		<script type="text/javascript">		
+
+		
+			var w = 700;
+			var h = 600;
+			var padding = [ 20, 10, 50, 100 ];  //Top, right, bottom, left
+
+			var xScale = d3.scale.sqrt()
+								.range([ padding[3], w - padding[1] - padding[3] ]);
+			
+			var yScale = d3.scale.sqrt()
+								.range([ padding[0], h - padding[2] ]);
+
+			var colorScale = d3.scale.category10();
+
+			var xAxis = d3.svg.axis()
+							.scale(xScale)
+							.orient("bottom")
+							.ticks(10)
+
+			var yAxis = d3.svg.axis()
+							.scale(yScale)
+							.orient("left")
+							.ticks(10);
+
+
+
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+
+
+
+			d3.csv("redbook2.csv", function(data) {
+
+				data.sort(function(a, b) {
+					return d3.descending(+a.Total, +b.Total);
+				});
+
+				xScale.domain([ 
+					d3.min(data, function(d) {
+						return +d.Mammals;
+					}), 
+					d3.max(data, function(d) {
+						return +d.Mammals;
+					})
+				]);
+
+				yScale.domain([
+					d3.max(data, function(d) {
+						return +d.Total;
+					}),
+					d3.min(data, function(d) {
+						return +d.Total;
+					})
+				]);
+				
+				colorScale.domain(data.map(function(d) { return d.Continent; } ));
+
+
+				var circles = svg.selectAll("circle")
+								.data(data)
+								.enter()
+								.append("circle");
+
+				circles.attr("cx", function(d) {
+						return xScale(+d.Mammals);
+					})
+					.attr("cy", function(d) {
+						return yScale(+d.Total);
+					})
+					.attr("r", 0.1)
+					.attr("fill","grey")
+					//.attr("fill", function(d) {
+					//	return colorScale(d.Continent);
+					//})
+					.append("title")
+					.text(function(d) {
+						return d.Country + " Mammals: " + d.Mammals + "/Total: " +d.Total;
+					});
+
+				circles.sort(function(a, b) {
+						return d3.ascending(+a.Total, +b.Total);
+					})
+					.transition()
+					.delay(function(d, i) {
+						return i * 5;
+					})
+					.duration(1000)
+					.attr("r", 3);
+				
+					var labels = svg.selectAll("text")
+								.data(data)
+								.enter()
+								.append("text");
+
+					labels.attr("x", function(d) {
+						return xScale(+d.Mammals);
+					})
+					.attr("y", function(d) {
+						return yScale((+d.Total)+25);
+					})
+					.text( function (d) { 
+						if (+d.Mammals>40 || +d.Total>400) {
+							return d.Country;
+							}
+						})	
+					.attr("font-family", "sans-serif")
+                 	.attr("font-size", "10px")
+                	.attr("fill", "grey")
+					.attr("opacity",0)
+					.attr("text-anchor","middle")
+					.transition()
+					.delay(2000)
+					.duration(2000)
+					.attr("opacity",100);
+					;
+
+				
+					
+				svg.append("g")
+					.attr("class", "x axis")
+					.attr("transform", "translate(0," + (h - padding[2] + 10) + ")")
+					.call(xAxis);
+
+				svg.append("g")
+					.attr("class", "y axis")
+					.attr("transform", "translate(" + (padding[3] - 10) + ",0)")
+					.call(yAxis);
+
+				svg.append("text")
+					.attr("class", "x label")
+					.attr("text-anchor", "middle")
+					.attr("x", w/2)
+					.attr("y", h - 5)
+					.text("Threatened mammal species (sqrt scale)");
+
+				svg.append("text")
+					.attr("class", "y label")
+					.attr("text-anchor", "middle")
+					.attr("x", 0)
+					.attr("y", 0)
+					.attr("dy",20)
+					.attr("dx",-(w/2)+padding[0]+50)
+					.attr("transform", "rotate(-90)")
+					.text("Total threatened species (sqrt scale)");					
+					
+			});
+			
+			d3.selectAll("p")
+				.on("click", function() {
+				
+				var pID = d3.select(this).attr("id");
+				
+				if(pID=="color") {
+					d3.csv("redbook2.csv", function(data) {
+					data.sort(function(a, b) {
+						return d3.ascending(a.Total, b.Total);
+					});
+					colorScale.domain(data.map(function(d) { return toTitleCase(d.Continent); } ));
+					circles = svg.selectAll("circle");
+					circles.transition()
+						.duration(1200)
+						.attr("fill", function(d) {
+							return colorScale(toTitleCase(d.Continent));
+						});
+
+					// draw the legend
+					verticalLegend = d3.svg.legend()
+					  .labelFormat("none")
+					  .cellPadding(5)
+					  .orientation("vertical")
+					  .units("")
+					  .cellWidth(10).cellHeight(10)
+					  .inputScale(colorScale)
+					  .cellStepping(10);
+					  
+			
+					d3.select("svg").append("g")
+					  .attr("transform", "translate(400,425)")
+					  .attr("class", "legend")
+					  .call(verticalLegend)
+					  .style("opacity", 0);
+
+					// fade in the legend
+					d3.selectAll(".legend")
+						.transition()
+						.duration(1200)
+						.style("opacity", 1);
+						
+					})
+				
+					
+				} else {
+					circles = svg.selectAll("circle");
+					circles.transition()
+						.duration(1200)
+						.attr("fill", "grey");
+
+					// remove the legend
+					d3.selectAll(".legend")
+						.transition()
+						.duration(1200)
+						.style("opacity", 0)
+						.remove();
+				}						
+			});
+
+			// http://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
+			function toTitleCase(str)
+			{
+			  return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+			}
+
+		</script>
+
+	</body>
+</html>

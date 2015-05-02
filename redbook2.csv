@@ -1,0 +1,250 @@
+"Continent","Region","Country","Mammals","Birds","Reptiles","Amphibians","Fishes","Molluscs","Other Inverts","Plants","Total"
+"AFRICA","North Africa","Algeria",14,11,8,3,35,10,15,17,113
+"AFRICA","North Africa","Egypt",18,11,12,0,41,0,54,3,139
+"AFRICA","North Africa","Libya",12,4,6,0,23,0,1,3,49
+"AFRICA","North Africa","Morocco",17,12,13,2,45,35,11,34,169
+"AFRICA","North Africa","Tunisia",13,7,6,1,34,6,8,7,82
+"AFRICA","North Africa","Western Sahara",9,2,1,0,25,0,3,0,40
+"AFRICA","Sub-Saharan Africa","Angola",16,26,4,0,41,5,4,34,130
+"AFRICA","Sub-Saharan Africa","Benin",12,10,5,0,28,0,3,16,74
+"AFRICA","Sub-Saharan Africa","Botswana",8,12,0,0,2,0,0,2,24
+"AFRICA","Sub-Saharan Africa","Burkina Faso",9,10,2,0,4,1,0,3,29
+"AFRICA","Sub-Saharan Africa","Burundi",11,13,0,5,17,4,3,7,60
+"AFRICA","Sub-Saharan Africa","Cameroon",41,25,6,55,109,11,16,425,688
+"AFRICA","Sub-Saharan Africa","Cape Verde",4,4,5,0,22,12,1,3,51
+"AFRICA","Sub-Saharan Africa","Central African Republic",12,14,2,0,3,0,0,22,53
+"AFRICA","Sub-Saharan Africa","Chad",14,12,2,0,1,4,0,5,38
+"AFRICA","Sub-Saharan Africa","Comoros",5,10,4,0,7,0,73,7,106
+"AFRICA","Sub-Saharan Africa","Congo",14,5,4,0,47,5,2,41,118
+"AFRICA","Sub-Saharan Africa","Congo The Democratic Republic of the",34,36,5,13,84,43,10,107,332
+"AFRICA","Sub-Saharan Africa","Côte d'Ivoire",26,20,6,14,47,3,3,107,226
+"AFRICA","Sub-Saharan Africa","Djibouti",7,10,0,0,17,1,56,3,94
+"AFRICA","Sub-Saharan Africa","Equatorial Guinea",22,7,7,4,29,0,5,77,151
+"AFRICA","Sub-Saharan Africa","Eritrea",10,15,6,0,20,1,57,4,113
+"AFRICA","Sub-Saharan Africa","Ethiopia",33,29,1,12,14,4,11,40,144
+"AFRICA","Sub-Saharan Africa","Gabon",18,5,5,3,61,0,3,132,227
+"AFRICA","Sub-Saharan Africa","Gambia",10,10,4,0,24,0,2,5,55
+"AFRICA","Sub-Saharan Africa","Ghana",19,19,5,12,44,0,5,119,223
+"AFRICA","Sub-Saharan Africa","Guinea",23,18,8,6,67,1,6,34,163
+"AFRICA","Sub-Saharan Africa","Guinea-Bissau",14,8,6,0,31,0,2,5,66
+"AFRICA","Sub-Saharan Africa","Kenya",31,38,9,10,69,17,67,187,428
+"AFRICA","Sub-Saharan Africa","Lesotho",2,7,0,0,1,0,3,4,17
+"AFRICA","Sub-Saharan Africa","Liberia",21,13,6,4,54,1,10,49,158
+"AFRICA","Sub-Saharan Africa","Madagascar",116,35,139,69,86,24,86,374,929
+"AFRICA","Sub-Saharan Africa","Malawi",9,17,3,5,98,7,9,23,171
+"AFRICA","Sub-Saharan Africa","Mali",12,14,3,0,2,0,0,8,39
+"AFRICA","Sub-Saharan Africa","Mauritania",16,13,5,0,32,0,3,0,69
+"AFRICA","Sub-Saharan Africa","Mauritius",7,9,8,0,17,28,90,91,250
+"AFRICA","Sub-Saharan Africa","Mayotte",1,3,7,0,4,0,69,0,84
+"AFRICA","Sub-Saharan Africa","Mozambique",13,29,12,4,59,3,64,77,261
+"AFRICA","Sub-Saharan Africa","Namibia",13,27,5,1,28,0,4,27,105
+"AFRICA","Sub-Saharan Africa","Niger",12,10,1,0,4,1,0,3,31
+"AFRICA","Sub-Saharan Africa","Nigeria",28,19,8,13,59,1,16,188,332
+"AFRICA","Sub-Saharan Africa","Réunion",5,6,0,0,11,16,71,17,126
+"AFRICA","Sub-Saharan Africa","Rwanda",23,15,0,6,9,0,2,6,61
+"AFRICA","Sub-Saharan Africa","Saint Helena Ascension and Tristan da Cunha",4,19,2,0,12,1,12,30,80
+"AFRICA","Sub-Saharan Africa","Sao Tomé and Principe",5,13,5,3,12,1,4,38,81
+"AFRICA","Sub-Saharan Africa","Senegal",17,14,7,0,45,10,3,11,107
+"AFRICA","Sub-Saharan Africa","Seychelles",6,12,11,6,19,36,283,62,435
+"AFRICA","Sub-Saharan Africa","Sierra Leone",20,14,6,2,48,3,5,58,156
+"AFRICA","Sub-Saharan Africa","Somalia",15,17,4,0,26,2,60,42,166
+"AFRICA","Sub-Saharan Africa","South Africa",25,45,21,19,100,22,180,116,528
+"AFRICA","Sub-Saharan Africa","South Sudan",10,16,1,0,0,0,0,15,42
+"AFRICA","Sub-Saharan Africa","Sudan",12,20,3,0,21,0,50,16,122
+"AFRICA","Sub-Saharan Africa","Swaziland",7,12,0,0,4,0,0,11,34
+"AFRICA","Sub-Saharan Africa","Tanzania United Republic of",39,45,29,58,175,15,114,504,979
+"AFRICA","Sub-Saharan Africa","Togo",11,10,3,2,24,0,3,12,65
+"AFRICA","Sub-Saharan Africa","Uganda",28,23,3,6,61,9,10,49,189
+"AFRICA","Sub-Saharan Africa","Zambia",12,17,1,1,20,13,1,14,79
+"AFRICA","Sub-Saharan Africa","Zimbabwe",10,16,3,6,3,0,5,17,60
+"Antarctica","Antarctica","Antarcticaa",2,4,0,0,0,0,0,0,6
+"Antarctica","Antarctica","Bouvet Island",1,1,0,0,1,0,0,0,3
+"Antarctica","Antarctica","French Southern Territories",3,12,4,0,3,0,0,0,22
+"Antarctica","Antarctica","Heard Island and McDonald Islands",1,10,0,0,1,0,0,0,12
+"Antarctica","Antarctica","South Georgia and the South Sandwich Islands",3,6,0,0,0,0,0,0,9
+"ASIA","East Asia","China",74,85,43,87,127,15,61,503,995
+"ASIA","East Asia","Hong Kong",2,20,5,5,13,1,7,6,59
+"ASIA","East Asia","Japan",27,39,14,19,72,33,137,21,362
+"ASIA","East Asia","Korea Democratic People's Republic of",9,25,2,1,15,0,3,8,63
+"ASIA","East Asia","Korea Republic of",9,28,2,3,22,0,4,7,75
+"ASIA","East Asia","Macao",0,4,1,0,5,0,1,0,11
+"ASIA","East Asia","Mongolia",11,20,0,0,2,0,3,0,36
+"ASIA","East Asia","Taiwan Province of China",10,22,9,10,64,1,127,82,325
+"ASIA","North Asia","Belarus",4,6,0,0,2,3,6,1,22
+"ASIA","North Asia","Moldova",4,8,2,0,8,2,3,2,29
+"ASIA","North Asia","Russian Federation",31,49,9,0,37,8,29,54,217
+"ASIA","North Asia","Ukraine",11,14,1,0,22,6,18,16,88
+"ASIA","South & Southeast Asia","Bangladesh",34,31,23,1,19,0,7,17,132
+"ASIA","South & Southeast Asia","Bhutan",27,18,3,1,3,0,1,12,65
+"ASIA","South & Southeast Asia","British Indian Ocean Territory",0,0,2,0,9,0,69,1,81
+"ASIA","South & Southeast Asia","Brunei Darussalam",34,23,8,3,7,0,8,104,187
+"ASIA","South & Southeast Asia","Cambodia",37,27,19,3,42,1,76,32,237
+"ASIA","South & Southeast Asia","Disputed Territory",0,0,0,0,1,0,1,0,2
+"ASIA","South & Southeast Asia","India",96,82,53,74,216,7,128,332,988
+"ASIA","South & Southeast Asia","Indonesia",185,131,32,32,149,6,282,408,1225
+"ASIA","South & Southeast Asia","Lao People's Democratic Republic",45,24,17,6,55,16,5,32,200
+"ASIA","South & Southeast Asia","Malaysia",71,48,28,48,73,35,227,706,1236
+"ASIA","South & Southeast Asia","Maldives",2,0,3,0,18,0,46,0,69
+"ASIA","South & Southeast Asia","Myanmar",46,45,29,0,41,3,74,47,285
+"ASIA","South & Southeast Asia","Nepal",32,34,9,3,7,1,2,12,100
+"ASIA","South & Southeast Asia","Philippines",39,89,39,48,76,3,234,233,761
+"ASIA","South & Southeast Asia","Singapore",11,15,5,0,25,0,173,58,287
+"ASIA","South & Southeast Asia","Sri Lanka",31,16,11,56,45,0,130,287,576
+"ASIA","South & Southeast Asia","Thailand",57,48,27,4,97,15,196,133,577
+"ASIA","South & Southeast Asia","Timor-Leste",4,7,2,0,6,0,1,1,21
+"ASIA","South & Southeast Asia","Viet Nam",54,44,43,19,75,18,108,177,538
+"ASIA","West & Central Asia","Afghanistan",11,14,1,1,5,0,2,3,37
+"ASIA","West & Central Asia","Armenia",9,12,7,0,3,2,7,71,111
+"ASIA","West & Central Asia","Azerbaijan",7,14,9,1,12,2,5,42,92
+"ASIA","West & Central Asia","Bahrain",3,3,4,0,10,0,13,0,33
+"ASIA","West & Central Asia","Cyprus",5,5,5,0,18,1,6,18,58
+"ASIA","West & Central Asia","Georgia",10,11,7,1,10,4,11,61,115
+"ASIA","West & Central Asia","Iran Islamic Republic of",17,22,13,4,38,2,22,3,121
+"ASIA","West & Central Asia","Iraq",14,16,3,1,17,1,16,1,69
+"ASIA","West & Central Asia","Israel",15,14,10,2,37,11,62,0,151
+"ASIA","West & Central Asia","Jordan",13,10,6,0,12,6,55,1,103
+"ASIA","West & Central Asia","Kazakhstan",16,22,1,1,15,2,5,15,77
+"ASIA","West & Central Asia","Kuwait",6,8,3,0,12,0,13,0,42
+"ASIA","West & Central Asia","Kyrgyzstan",6,12,2,0,3,0,4,14,41
+"ASIA","West & Central Asia","Lebanon",10,9,7,0,21,9,6,2,64
+"ASIA","West & Central Asia","Oman",10,10,8,0,26,2,29,6,91
+"ASIA","West & Central Asia","Pakistan",25,30,10,0,35,0,18,5,123
+"ASIA","West & Central Asia","Palestinian Territory Occupied",3,10,4,1,0,2,2,0,22
+"ASIA","West & Central Asia","Qatar",3,5,2,0,12,0,13,0,35
+"ASIA","West & Central Asia","Saudi Arabia",10,15,3,0,26,1,58,3,116
+"ASIA","West & Central Asia","Syrian Arab Republic",16,15,8,0,45,9,10,4,107
+"ASIA","West & Central Asia","Tajikistan",8,12,2,0,5,0,3,12,42
+"ASIA","West & Central Asia","Turkey",17,16,20,11,127,44,26,103,364
+"ASIA","West & Central Asia","Turkmenistan",9,16,2,0,11,1,6,4,49
+"ASIA","West & Central Asia","United Arab Emirates",8,9,3,0,14,0,15,0,49
+"ASIA","West & Central Asia","Uzbekistan",10,16,2,0,7,1,2,17,55
+"ASIA","West & Central Asia","Yemen",9,15,6,1,24,2,66,162,285
+"EUROPE","Europe","Albania",3,6,4,2,38,49,7,0,109
+"EUROPE","Europe","Andorra",2,1,1,0,0,3,4,0,11
+"EUROPE","Europe","Austria",3,9,1,0,11,43,27,13,107
+"EUROPE","Europe","Belgium",2,4,0,0,11,6,8,0,31
+"EUROPE","Europe","Bosnia and Herzegovina",4,6,3,1,32,17,19,1,83
+"EUROPE","Europe","Bulgaria",7,14,2,0,20,25,12,6,86
+"EUROPE","Europe","Croatia",8,12,3,2,59,45,21,8,158
+"EUROPE","Europe","Czech Republic",2,7,0,0,2,6,19,10,46
+"EUROPE","Europe","Denmark",2,3,0,0,15,5,10,1,36
+"EUROPE","Europe","Estonia",1,5,0,0,5,3,3,0,17
+"EUROPE","Europe","Faroe Islands",4,1,0,0,8,0,0,0,13
+"EUROPE","Europe","Finland",1,6,0,0,6,3,7,2,25
+"EUROPE","Europe","France",8,9,5,2,46,91,41,32,234
+"EUROPE","Europe","Germany",5,7,0,0,23,31,27,17,110
+"EUROPE","Europe","Gibraltar",5,3,0,0,12,3,1,0,24
+"EUROPE","Europe","Greece",10,12,9,5,75,65,52,58,286
+"EUROPE","Europe","Greenland",7,1,0,0,8,0,0,1,17
+"EUROPE","Europe","Guernsey",0,0,0,0,2,0,0,0,2
+"EUROPE","Europe","Holy See (Vatican City State)",1,0,0,0,0,0,0,0,1
+"EUROPE","Europe","Hungary",2,10,1,0,9,8,28,10,68
+"EUROPE","Europe","Iceland",6,1,0,0,12,0,0,0,19
+"EUROPE","Europe","Ireland",5,3,1,0,22,2,4,1,38
+"EUROPE","Europe","Isle of Man",1,0,0,0,2,0,0,0,3
+"EUROPE","Europe","Italy",7,10,4,9,46,72,62,66,276
+"EUROPE","Europe","Jersey",0,0,0,0,2,0,1,0,3
+"EUROPE","Europe","Latvia",1,6,0,0,6,4,8,0,25
+"EUROPE","Europe","Liechtenstein",0,0,0,0,0,2,2,0,4
+"EUROPE","Europe","Lithuania",3,6,0,0,6,2,5,1,23
+"EUROPE","Europe","Luxembourg",0,1,0,0,1,5,2,0,9
+"EUROPE","Europe","Macedonia the former Yugoslav Republic of",5,11,2,0,13,61,8,0,100
+"EUROPE","Europe","Malta",3,3,0,0,17,3,1,4,31
+"EUROPE","Europe","Monaco",2,0,0,0,11,0,2,0,15
+"EUROPE","Europe","Montenegro",6,12,3,1,25,21,13,2,83
+"EUROPE","Europe","Netherlands",3,4,0,0,13,5,5,0,30
+"EUROPE","Europe","Norway",7,4,0,0,19,3,7,3,43
+"EUROPE","Europe","Poland",5,8,0,0,7,7,16,10,53
+"EUROPE","Europe","Portugal",11,9,4,1,54,76,18,81,254
+"EUROPE","Europe","Romania",7,14,2,0,20,11,28,5,87
+"EUROPE","Europe","San Marino",0,0,0,0,0,0,1,0,1
+"EUROPE","Europe","Serbia",6,11,1,0,11,5,18,5,57
+"EUROPE","Europe","Slovakia",3,8,0,0,5,6,17,7,46
+"EUROPE","Europe","Slovenia",5,5,1,2,28,32,43,7,123
+"EUROPE","Europe","Spain",16,11,20,6,69,141,75,214,552
+"EUROPE","Europe","Svalbard and Jan Mayen",2,1,0,0,2,0,0,0,5
+"EUROPE","Europe","Sweden",1,4,0,0,12,4,11,4,36
+"EUROPE","Europe","Switzerland",2,3,0,1,9,10,33,4,62
+"EUROPE","Europe","United Kingdom",5,4,1,0,43,5,12,15,85
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Anguilla",1,1,7,0,20,0,10,3,42
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Antigua and Barbuda",2,2,6,0,20,0,11,4,45
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Aruba",2,1,1,0,15,1,1,2,23
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Bahamas",6,7,8,0,31,1,11,8,72
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Barbados",3,2,4,0,22,0,11,3,45
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Bermuda",4,1,3,0,17,0,28,7,60
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Bonaire Sint Eustatius and Saba",3,2,6,0,21,0,11,3,46
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Cayman Islands",1,2,4,0,21,1,10,22,61
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Cuba",14,18,16,49,36,0,23,176,332
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Curaçao",3,2,3,0,21,0,11,2,42
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Dominica",3,3,4,2,21,0,11,11,55
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Dominican Republic",6,15,14,32,23,0,16,41,147
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Grenada",3,1,6,1,21,0,10,3,45
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Guadeloupe",5,2,7,3,20,1,15,9,62
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Haiti",5,15,15,49,22,0,14,39,159
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Jamaica",5,10,10,15,23,0,15,214,292
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Martinique",2,4,7,2,13,2,0,9,39
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Montserrat",3,3,3,1,19,0,11,5,45
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Puerto Rico",3,9,14,14,22,0,0,57,119
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Saint Barthélemy",1,0,2,0,4,0,11,2,20
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Saint Kitts and Nevis",2,2,5,1,22,0,10,2,44
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Saint Lucia",2,5,6,0,22,0,11,6,52
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Saint Martin (French part)",2,1,6,0,21,0,10,3,43
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Saint Vincent and the Grenadines",2,2,6,1,22,0,10,5,48
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Sint Maarten (Dutch part)",2,1,6,0,20,0,10,2,41
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Trinidad and Tobago",2,5,5,8,25,0,10,2,57
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Turks and Caicos Islands",2,3,4,0,20,0,10,9,48
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Virgin Islands British",1,2,9,2,19,0,10,10,53
+"NORTH & CENTRAL AMERICA","Caribbean Islands","Virgin Islands U.S.",2,1,10,2,17,0,0,12,44
+"NORTH & CENTRAL AMERICA","Mesoamerica","Belize",9,5,8,5,33,0,12,33,105
+"NORTH & CENTRAL AMERICA","Mesoamerica","Costa Rica",10,23,12,61,50,1,29,131,317
+"NORTH & CENTRAL AMERICA","Mesoamerica","El Salvador",7,6,10,10,14,0,7,29,83
+"NORTH & CENTRAL AMERICA","Mesoamerica","Guatemala",17,14,32,80,25,2,7,94,271
+"NORTH & CENTRAL AMERICA","Mesoamerica","Honduras",8,12,40,56,31,0,18,119,284
+"NORTH & CENTRAL AMERICA","Mesoamerica","Mexico",101,61,97,210,159,7,85,371,1091
+"NORTH & CENTRAL AMERICA","Mesoamerica","Nicaragua",7,16,9,10,31,2,16,43,134
+"NORTH & CENTRAL AMERICA","Mesoamerica","Panama",16,22,9,49,42,0,22,203,363
+"NORTH & CENTRAL AMERICA","North America","Canada",11,13,6,1,38,5,13,6,93
+"NORTH & CENTRAL AMERICA","North America","Saint Pierre and Miquelon",4,2,0,0,1,0,0,0,7
+"NORTH & CENTRAL AMERICA","North America","United States",35,77,37,56,233,301,269,279,1287
+"OCEANIA","Oceania","American Samoa",1,8,6,0,10,5,59,1,90
+"OCEANIA","Oceania","Australia",55,50,43,47,109,174,337,91,906
+"OCEANIA","Oceania","Christmas Island",3,3,4,0,8,0,18,1,37
+"OCEANIA","Oceania","Cocos (Keeling) Islands",2,0,1,0,9,0,20,0,32
+"OCEANIA","Oceania","Cook Islands",1,15,3,0,11,0,32,11,73
+"OCEANIA","Oceania","Fiji",6,14,14,1,13,68,97,65,278
+"OCEANIA","Oceania","French Polynesia",0,31,2,0,30,34,31,47,175
+"OCEANIA","Oceania","Guam",2,14,5,0,10,6,54,4,95
+"OCEANIA","Oceania","Kiribati",1,5,2,0,11,1,80,0,100
+"OCEANIA","Oceania","Marshall Islands",2,3,4,0,13,1,72,0,95
+"OCEANIA","Oceania","Micronesia Federated States of",7,10,7,0,19,4,111,5,163
+"OCEANIA","Oceania","Nauru",1,2,0,0,9,0,68,0,80
+"OCEANIA","Oceania","New Caledonia",9,16,54,0,30,28,97,259,493
+"OCEANIA","Oceania","New Zealand",9,69,14,4,34,32,14,21,197
+"OCEANIA","Oceania","Niue",1,8,3,0,8,0,30,0,50
+"OCEANIA","Oceania","Norfolk Island",0,10,2,0,5,12,11,1,41
+"OCEANIA","Oceania","Northern Mariana Islands",4,16,4,0,13,4,53,5,99
+"OCEANIA","Oceania","Palau",4,5,3,0,15,40,106,4,177
+"OCEANIA","Oceania","Papua New Guinea",39,38,9,11,48,2,179,145,471
+"OCEANIA","Oceania","Pitcairn",1,10,0,0,9,5,11,7,43
+"OCEANIA","Oceania","Samoa",2,6,5,0,13,1,61,2,90
+"OCEANIA","Oceania","Solomon Islands",20,25,5,2,18,2,149,17,238
+"OCEANIA","Oceania","Tokelau",0,1,2,0,8,0,35,0,46
+"OCEANIA","Oceania","Tonga",2,5,4,0,12,4,43,4,74
+"OCEANIA","Oceania","Tuvalu",1,1,3,0,10,1,77,0,93
+"OCEANIA","Oceania","United States Minor Outlying Islands",0,10,2,0,12,0,47,0,71
+"OCEANIA","Oceania","Vanuatu",7,9,4,0,15,4,88,10,137
+"OCEANIA","Oceania","Wallis and Futuna",0,9,2,0,11,1,64,1,88
+"SOUTH AMERICA","South America","Argentina",39,49,6,30,36,0,13,70,243
+"SOUTH AMERICA","South America","Bolivia Plurinational States of",21,55,3,35,0,2,1,99,216
+"SOUTH AMERICA","South America","Brazil",82,164,29,34,86,22,32,516,965
+"SOUTH AMERICA","South America","Chile",20,32,2,22,22,1,11,72,182
+"SOUTH AMERICA","South America","Colombia",54,119,22,215,53,0,33,245,741
+"SOUTH AMERICA","South America","Ecuador",45,96,26,174,53,48,17,1840,2299
+"SOUTH AMERICA","South America","Falkland Islands (Malvinas)",4,9,0,0,5,0,0,5,23
+"SOUTH AMERICA","South America","French Guiana",8,7,6,3,26,0,0,16,66
+"SOUTH AMERICA","South America","Guyana",11,14,5,5,27,0,1,23,86
+"SOUTH AMERICA","South America","Paraguay",9,27,3,0,0,0,0,19,58
+"SOUTH AMERICA","South America","Peru",54,121,9,111,21,4,4,318,642
+"SOUTH AMERICA","South America","Suriname",9,8,5,1,25,0,1,26,75
+"SOUTH AMERICA","South America","Uruguay",10,22,5,5,37,0,2,22,103
+"SOUTH AMERICA","South America","Venezuela",34,45,14,73,36,1,25,77,305
